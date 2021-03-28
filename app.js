@@ -1,17 +1,22 @@
-import '/core/framework.js'
-import '/core/layouts/simple.js'
+import "/core/framework.js"
+import "/core/layouts/simple.js"
 
 document.body.innerHTML = `
     <simple-layout/>
 `
 
 // load eruda devtools
-document.addEventListener("DOMContentLoaded", (e) => {
+document.addEventListener("DOMContentLoaded", e => {
     if (/eruda=true/.test(window.location)) {
-        const el = document.createElement('script')
-        eruda.src = '//cdn.jsdelivr.net/npm/eruda'
-        document.body.append(el)
-        const init = document.createElement('script').innerHTML = 'eruda.init()'
-        document.body.append(init)
+        // const eruda = document.createElement("script")
+        // eruda.src = "//cdn.jsdelivr.net/npm/eruda"
+        // document.body.append(eruda)
+        // setTimeout(() => window.eruda.init(), 3000)
+        fetch("//cdn.jsdelivr.net/npm/eruda")
+            .then(res => res.text())
+            .then(src => {
+                eval(src)
+                eruda.init()
+            })
     }
 })
