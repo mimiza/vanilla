@@ -1,3 +1,6 @@
 [submodule "core"]
 	path = core
 	url = https://github.com/mimiza/core.git
+[submodule "gun"]
+	path = gun
+	url = https://github.com/amark/gun
