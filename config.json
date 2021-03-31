@@ -1,0 +1,28 @@
+{
+    "peers": [
+        "https://mimiza.herokuapp.com/gun",
+        "https://peer-01.mimiza.com/gun"
+    ],
+    "system": {
+        "epub": "n2QKBnhasKfxPNjXCWpO-4fH3T4iObHCs8348vcVMv0.Bi6iTfLJiUcZ54Oy-fmTn9PQbgjGkAmRK9oelUKz9ys",
+        "pub": "Ql6tJsYLczHOqkowjTe1EsVGXiojyHLhY0wnxuhtaFw.zN-pwvwBeDp94vSspRl1W-rlD3AvTXcqLwqP8RYMIzY",
+        "cert": {
+            "peer": "SEA{\"m\":{\"c\":\"*\",\"w\":{\"*\":\"peer\",\"+\":\"*\"},\"wb\":\"peer/blacklist\"},\"s\":\"TkoNItSqxuqmOnQo9QWSrg2AT7LZbCZS334ZPvT+mwABklmjkBCjxJTSW50KY3qYC4YVPrPublwTejoSMjB+iw==\"}",
+            "message": "SEA{\"m\":{\"c\":\"*\",\"w\":{\"*\":\"message\",\"+\":\"*\"},\"wb\":\"blacklist/message\"},\"s\":\"4NPx8HvAl2oICKnam/D/eQgB2pSp8qUfxeM7p473bwJtRJtc93x1Kekb2/6qmUhq46+wtJ2UBSwUAhDZiuBcow==\"}",
+            "notification": "SEA{\"m\":{\"c\":\"*\",\"w\":{\"*\":\"notification\",\"+\":\"*\"},\"wb\":\"blacklist/notification\"},\"s\":\"u/8py96b11y4eFBEvTapPaM8Y5XLPU5CXCP7RlXT+p7qTIcjwAa898gx2B6DT5W8kyIN7oVCkekM4yuqkRSTgg==\"}",
+            "user": "SEA{\"m\":{\"c\":\"*\",\"w\":{\"*\":\"user\",\"+\":\"*\"},\"wb\":\"blacklist/user\"},\"s\":\"7ao9rEzvEDKoje8G6At8VHecf8r2BODYzDT02RcxJrW0Pz5S6R/AP4Jn2FXUTvoZR4+sPCVxvOI8OW9YzL53rQ==\"}",
+            "social-account": "SEA{\"m\":{\"c\":\"*\",\"w\":{\"*\":\"social-account\",\"+\":\"*\"},\"wb\":\"blacklist/user\"},\"s\":\"gUYiadYh2HBwu5xjP4HhFG27QpXsxYM5iU9BEs+FmspVArKm910yVOobzNhhqw1agiLGAiKc4fTXIFhmUvcZyQ==\"}"
+        }
+    },
+    "service": {
+        "epub": "GIqm3suY4Y6Urwm9Uaak73FNf8Ip-c1ifcN2hU3vWKw._2oi_Y4zHBwo3eCDFk8FomEe0BHeFKotupv4vZjOn5U",
+        "pub": "D6lYdM8cvWoFuAuRU_C__3R4cQYs1qvcdsSRN6OoyGY.LvzXIks2Zkr2ULD1WFAs3HDWjG4UlIM-VvozU44fAOs",
+        "cert": {
+            "request": "SEA{\"m\":{\"c\":\"*\",\"w\":{\"*\":\"request\",\"+\":\"*\"}},\"s\":\"8oreZgu44dgXIYfKs7B6MOvmC8MAGRluu5qs1d6yMh3mR10qvD4k6C3LeFfivQvj1IuFsJcG8nJHQLWp90o4nA==\"}"
+        }
+    },
+    "cloud": {
+        "getReferralCode": "https://asia-east2-mimiza.cloudfunctions.net/getReferralCode",
+        "verifyTwitterAccount": "https://asia-east2-mimiza.cloudfunctions.net/verifyTwitterAccount"
+    }
+}

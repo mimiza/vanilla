@@ -1,0 +1,205 @@
+{
+    "users": [
+        {
+            "key": {
+                "pub": "Ql6tJsYLczHOqkowjTe1EsVGXiojyHLhY0wnxuhtaFw.zN-pwvwBeDp94vSspRl1W-rlD3AvTXcqLwqP8RYMIzY",
+                "epub": "n2QKBnhasKfxPNjXCWpO-4fH3T4iObHCs8348vcVMv0.Bi6iTfLJiUcZ54Oy-fmTn9PQbgjGkAmRK9oelUKz9ys"
+            },
+            "roles": ["system"]
+        }
+    ],
+    "permissions": [
+        { "navigation": ["system", "customer"] },
+        [
+            {
+                "/dashboard": {
+                    "roles": ["system", "customer"],
+                    "icon": "bi bi-window-sidebar"
+                }
+            }
+        ],
+        { "stock": ["system"] },
+        [
+            {
+                "/dashboard/inventory": {
+                    "roles": ["system"],
+                    "icon": "bi bi-ui-radios-grid"
+                }
+            },
+            {
+                "/dashboard/item": {
+                    "roles": ["system"],
+                    "icon": "bi bi-box-seam"
+                }
+            },
+            {
+                "/dashboard/warehouse": {
+                    "roles": ["system"],
+                    "icon": "bi bi-house"
+                }
+            },
+            {
+                "/dashboard/uom": {
+                    "roles": ["system"],
+                    "icon": "bi bi-rulers"
+                }
+            },
+            {
+                "/dashboard/product-authentication": {
+                    "roles": ["system"],
+                    "icon": "bi bi-patch-check"
+                }
+            }
+        ],
+        { "selling": ["system"] },
+        [
+            {
+                "/dashboard/sales-order": {
+                    "roles": ["system"],
+                    "icon": "bi bi-bag"
+                }
+            },
+            {
+                "/dashboard/customer": {
+                    "roles": ["system"],
+                    "icon": "bi bi-at"
+                }
+            },
+            {
+                "/dashboard/pricing": {
+                    "roles": ["system"],
+                    "icon": "bi bi-tag"
+                }
+            }
+        ],
+        { "crm": ["system"] },
+        [
+            {
+                "/dashboard/contact": {
+                    "roles": ["system"],
+                    "icon": "bi bi-person-badge"
+                }
+            },
+            {
+                "/dashboard/address": {
+                    "roles": ["system"],
+                    "icon": "bi bi-geo"
+                }
+            }
+        ],
+        { "projects": ["system"] },
+        [
+            {
+                "/dashboard/project": {
+                    "roles": ["system"],
+                    "icon": "bi bi-diagram-2"
+                }
+            },
+            {
+                "/dashboard/task": {
+                    "roles": ["system"],
+                    "icon": "bi bi-list-check"
+                }
+            }
+        ],
+        { "marketing": ["system"] },
+        [
+            {
+                "/dashboard/make-money": {
+                    "roles": ["system", "customer"],
+                    "icon": "bi bi-cash"
+                }
+            },
+            {
+                "/dashboard/campaign": {
+                    "roles": ["system", "customer"],
+                    "icon": "bi bi-megaphone"
+                }
+            },
+            {
+                "/dashboard/creative": {
+                    "roles": ["system", "customer"],
+                    "icon": "bi bi-badge-ad"
+                }
+            },
+            {
+                "/dashboard/performance": {
+                    "roles": ["system", "customer"],
+                    "icon": "bi bi-play"
+                }
+            },
+            {
+                "/dashboard/social-account": {
+                    "roles": ["system", "customer"],
+                    "icon": "bi bi-share"
+                }
+            }
+        ],
+        { "social": ["system"] },
+        [
+            {
+                "/dashboard/people": {
+                    "roles": ["system"],
+                    "icon": "bi bi-people"
+                }
+            }
+        ],
+        { "system": ["system"] },
+        [
+            {
+                "/dashboard/user": {
+                    "roles": ["system"],
+                    "icon": "bi bi-person"
+                }
+            },
+            {
+                "/dashboard/access": {
+                    "roles": ["system"],
+                    "icon": "bi bi-list-check"
+                }
+            },
+            {
+                "/dashboard/peer": {
+                    "roles": ["system"],
+                    "icon": "bi bi-hdd-network"
+                }
+            }
+        ],
+        { "settings": ["system", "customer"] },
+        [
+            {
+                "/dashboard/profile": {
+                    "roles": ["system", "customer"],
+                    "icon": "bi bi-person-circle"
+                }
+            },
+            {
+                "/dashboard/authorize": {
+                    "roles": ["system", "customer"],
+                    "icon": "bi bi-shield-plus"
+                }
+            },
+            {
+                "/dashboard/security": {
+                    "roles": ["system", "customer"],
+                    "icon": "bi bi-shield-check"
+                }
+            },
+            {
+                "/dashboard/change-password": {
+                    "roles": ["system", "customer"],
+                    "icon": "bi bi-three-dots"
+                }
+            }
+        ],
+        { "development": ["system"] },
+        [
+            {
+                "/dashboard/test": {
+                    "roles": ["system"],
+                    "icon": "bi bi-code-square"
+                }
+            }
+        ]
+    ]
+}
