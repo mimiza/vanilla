@@ -1,4 +1,7 @@
-import { context, setContext } from "/core/framework.js"
+import {
+    context,
+    setContext
+} from "/core/framework.js"
 import "/core/layouts/simple.js"
 
 // load eruda devtools for mobile browsers
@@ -8,13 +11,15 @@ if (
 ) {
     localStorage.setItem("eruda", true)
     fetch("//cdn.jsdelivr.net/npm/eruda")
-        .then(res => res.text())
-        .then(src => {
-            eval(src)
-            eruda.init()
-        })
+    .then(res => res.text())
+    .then(src => {
+        eval(src)
+        eruda.init()
+    })
 }
 
-document.body.innerHTML = `<simple-layout>hello world</simple-layout>`
-
-window.setContext = setContext
+document.body.innerHTML = `
+<simple-layout>
+Lorem ipsum
+</simple-layout>
+`
